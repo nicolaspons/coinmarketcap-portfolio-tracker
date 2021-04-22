@@ -76,11 +76,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, 'hs', ['min=', 'max=', 'save'])
     except getopt.GetoptError:
-        print('tracking.py -min=<MIN_MARKET_CAP> -max=<MIN_MARKET_CAP> -s')
+        print('tracking.py --min=<MIN_MARKET_CAP> --max=<MIN_MARKET_CAP> -s')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('tracking.py -m=<MIN_MARKET_CAP> -M=<MIN_MARKET_CAP> -s')
+            print('tracking.py --min=<MIN_MARKET_CAP> --max=<MIN_MARKET_CAP> -s')
             sys.exit(0)
         elif opt in ['-m', '--min']:
             MIN_MARKET_CAP = int(arg)
