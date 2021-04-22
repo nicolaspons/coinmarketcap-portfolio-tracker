@@ -1,5 +1,6 @@
 # Own
 tracker_coins.csv
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
