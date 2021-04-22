@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A simple tracker that collects coins from major portfolios listed on <a href="https://coinmarketcap.com/view/alameda-research-portfolio/" target="_blank">CoinMarketCap</a>.</h4>
+<h4 align="center">A simple tracker that collects coins from major portfolios listed on <a href="https://coinmarketcap.com/view/alameda-research-portfolio/" target="_blank">CoinMarketCap</a> between a specific market cap range.</h4>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -33,7 +33,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [P
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/nicolaspons/coinmarketcap-portfolio-tracker
 
 # Go into the repository
 $ cd coinmarketcap-portfolio-tracker
