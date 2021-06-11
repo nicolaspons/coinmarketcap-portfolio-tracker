@@ -48,7 +48,7 @@ $ conda activate myenv
 $ conda install --file requirements.txt
 
 # Run the script
-$ python tracking.py --min=<MIN_MARKET_CAP> --max=<MIN_MARKET_CAP> -s
+$ python tracking.py --min=<MIN_MARKET_CAP> --max=<MAX_MARKET_CAP> -s
 ```
 
 Note: the options _min, max_ and _save_ are optional.
